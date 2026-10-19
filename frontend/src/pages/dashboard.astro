@@ -1,0 +1,9 @@
+---
+import Layout from '../layouts/BaseLayout.astro';
+import DashboardComponent from '../components/Dashboard';
+import '@/styles/global.css';
+---
+
+<Layout title="Dashboard | Rate My CSD">
+    <DashboardComponent client:visible />
+</Layout>
